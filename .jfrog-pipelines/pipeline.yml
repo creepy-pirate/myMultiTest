@@ -5,7 +5,7 @@ resources:
       gitProvider: deepak_git
       path: creepy-pirate/jfrogMultiTest
 pipelines:
-  - name: test_reports
+  - name: test_reportssss
     configuration:
       environmentVariables:
         readOnly:
