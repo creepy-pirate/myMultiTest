@@ -59,6 +59,7 @@ pipelines:
             # - npm run test
             - save_tests $res_deepakRepo_resourcePath/.idea/hiddenTest.xml
             - ls -a
+            - get-variable -name property1
           onSuccess:
             - echo "success"
             - task: jfrog/upload-artifact@v0.0.1
