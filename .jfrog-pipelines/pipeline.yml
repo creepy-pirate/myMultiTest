@@ -60,7 +60,6 @@ pipelines:
               id: upload-artifact
               input:
                 inputResource: deepakRepo
-                sourcePath: *
                 targetPath: example-repo-local
 
       # - name: no_test_reports
