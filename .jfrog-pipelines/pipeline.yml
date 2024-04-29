@@ -4,6 +4,11 @@ resources:
     configuration:
       gitProvider: deepak_git
       path: creepy-pirate/jfrogMultiTest
+  - name: propertyBag_1
+    type: PropertyBag
+    configuration:
+      property1: "jfrog"
+      property2: "pipelines"
 pipelines:
   - name: hellopipe
     configuration:
